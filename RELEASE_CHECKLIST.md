@@ -4,7 +4,7 @@ Experimenteller Quellcode-Pre-Release unter https://github.com/Lorilonlon/camper
 
 ## Erledigt
 
-- [x] Eigenständiger Projektname; Truma/Home Assistant beschreibend in Titel, Beschreibung und vorgeschlagenen Topics.
+- [x] Eigenständiger Projektname; Truma/Home Assistant beschreibend in Titel, Beschreibung und gesetzten Topics.
 - [x] Wesentliche KI-Mitwirkung sichtbar in README, Release-Hinweisen und Beitragsregeln.
 - [x] Bestehende MIT-Lizenz des eigenen Codes erhalten; Fremdlizenzen und BlueZ-Header-Risiko für Binärverteilung dokumentiert.
 - [x] Reine Quellcode-Veröffentlichung; keine Images, Shared Libraries oder Original-Herstellerdateien.
@@ -12,14 +12,16 @@ Experimenteller Quellcode-Pre-Release unter https://github.com/Lorilonlon/camper
 - [x] Betreiber erklärt: keine besondere Geheimhaltungs-/Entwicklervereinbarung mit Truma.
 - [x] Betreiber meldet am 03.10.2026 problemlosen Alltagsbetrieb. Keine Behauptung eines vollständig ausgewerteten Langzeitlogs.
 - [x] Private Arbeitsverzeichnisse, Mitschnitte und deren Historie nicht übernommen; separates Quellpaket ohne alte Git-Historie.
-- [x] Geplante Repository-Adresse, Installationshinweise, Issue-/PR-Vorlagen und Sicherheitsmeldung vorbereitet.
+- [x] Öffentliche Repository-Adresse, Installationshinweise, Issue-/PR-Vorlagen und Sicherheitsmeldung vorbereitet.
 
-## Vor dem öffentlichen Upload zu klären
-
-- [ ] Herausgeber bestätigt seine Berechtigung zur Nutzung der untersuchten Original-App und bewertet etwaige weitere Vertragsbedingungen. Keine anwaltliche Einzelfallprüfung durchgeführt.
-- [ ] Sichere GitHub-Anmeldung, private Sicherheitsmeldungen und verfügbare Secret-/Push-Schutzfunktionen tatsächlich aktivieren.
+- [x] GitHub-Anmeldung über OAuth; private Sicherheitsmeldungen, Secret Scanning und Push Protection aktiviert und überprüft.
+- [x] Repository öffentlich; ausschließlich geprüfter Quellcode hochgeladen.
 - [x] Repository zunächst privat angelegt; GitHub-CI für Python 3.13/3.14 und Linux-C-Tests erfolgreich.
 - [x] Datei- und Historienprüfung vor dem Upload erfolgreich; erneute Prüfung bei späteren Änderungen erforderlich.
+
+## Rechtliche Einschränkung
+
+Die individuelle Nutzungsberechtigung zur untersuchten Original-App und etwaige weitere Vertragsbedingungen wurden nicht unabhängig verifiziert. Keine anwaltliche Einzelfallprüfung durchgeführt; Veröffentlichung ist keine rechtliche Freigabe. Details stehen in LEGAL.md.
 
 ## Technisch weiter offen / im Pre-Release sichtbar
 
