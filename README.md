@@ -81,4 +81,4 @@ Das Protokoll löst keine Steuerbefehle oder automatischen Neustarts aus. Ein ha
 
 Die App kann reale Heiz- und Warmwasserfunktionen auslösen. Sie ersetzt keine Sicherheitseinrichtungen, Herstelleranweisungen, Frostschutzüberwachung oder lokale Bedienmöglichkeit. Bei Ausfall bleibt der tatsächliche Gerätezustand maßgeblich; ein nicht verfügbarer Sensor bedeutet nicht „Heizung aus“. Zunächst im Lesemodus erproben und `allow_control` bewusst freigeben. Keine zugesicherte Eignung für unbeaufsichtigten oder sicherheitskritischen Betrieb.
 
-Der optionale Kompatibilitätsdienst greift in den gemeinsamen Bluetooth-Systemdienst ein. Vor seiner Installation die dortigen Hinweise lesen. MQTT-Zugangsdaten nur lokal speichern und Broker-Zugriff begrenzen. Die Diagnose-App für vollständige HCI-Mitschnitte gehört nicht zu diesem Repository.
+Der optionale Kompatibilitätsdienst greift in den gemeinsamen Bluetooth-Systemdienst ein. Vor seiner Installation die dortigen Hinweise lesen. MQTT-Zugangsdaten nur lokal speichern und Broker-Zugriff begrenzen.

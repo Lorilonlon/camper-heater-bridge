@@ -1,6 +1,6 @@
 # v0.1.8 — erster experimenteller Quellcode-Pre-Release
 
-Camper Heater Bridge verbindet eine klassische Truma iNet-Box lokal über Bluetooth und MQTT mit Home Assistant. Enthalten sind Heizungs-/Warmwassersteuerung, separate Temperatur- und Spannungssensoren, Kopplungsoberfläche, beschriftete Dashboard-Karten und eine begrenzte Diagnosehistorie.
+Camper Heater Bridge verbindet eine klassische Truma iNet-Box lokal über Bluetooth und MQTT mit Home Assistant. Enthalten sind Heizungs-/Warmwassersteuerung, separate Temperatur- und Spannungssensoren, Kopplungsoberfläche und beschriftete Dashboard-Karten.
 
 Getestete Betreiberanlage: Raspberry Pi 4, klassische iNet-Box HW 1.3.0 / FW 3.1.5 und Combi 6. Der Betreiber meldet am 03.10.2026 problemlosen Betrieb nach der Alltagserprobung. Keine generelle Kompatibilitäts- oder Dauerbetriebszusage. iNet X wird nicht unterstützt.
 
