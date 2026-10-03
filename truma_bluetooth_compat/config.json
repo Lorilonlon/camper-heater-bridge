@@ -1,0 +1,28 @@
+{
+  "name": "Camper Heater Bridge — Bluetooth compatibility",
+  "version": "0.1.2",
+  "slug": "truma_bluetooth_compat",
+  "description": "Experimentelle Timing-Korrektur für eine konfigurierte klassische Truma iNet-Box.",
+  "arch": [
+    "aarch64"
+  ],
+  "startup": "services",
+  "boot": "auto",
+  "init": false,
+  "host_dbus": true,
+  "map": [
+    {
+      "type": "share",
+      "read_only": false
+    }
+  ],
+  "options": {
+    "box_address": ""
+  },
+  "schema": {
+    "box_address": "match(^$|^([0-9A-Fa-f]{2}:){5}[0-9A-Fa-f]{2}$)"
+  },
+  "timeout": 60,
+  "stage": "experimental",
+  "url": "https://github.com/Lorilonlon/camper-heater-bridge"
+}

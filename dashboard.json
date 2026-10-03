@@ -1,0 +1,81 @@
+{
+  "views": [
+    {
+      "title": "Klima",
+      "path": "klima",
+      "type": "sections",
+      "max_columns": 2,
+      "header": {
+        "layout": "start",
+        "card": {
+          "type": "markdown",
+          "text_only": true,
+          "entity_id": [
+            "sensor.truma_inet_status",
+            "sensor.truma_inet_letzte_aktualisierung"
+          ],
+          "content": "# Wohnmobil Klima\n**{{ states('sensor.truma_inet_status') }}**  \n{% set t = as_timestamp(states('sensor.truma_inet_letzte_aktualisierung'), none) %}Zuletzt bestätigt: {{ t | timestamp_custom('%H:%M:%S', true) if t is not none else '–' }}"
+        }
+      },
+      "badges": [],
+      "sections": [
+        {
+          "type": "grid",
+          "cards": [
+            {
+              "type": "heading",
+              "heading": "Heizung",
+              "icon": "mdi:radiator"
+            },
+            {
+              "type": "custom:camper-inet-card",
+              "kind": "climate",
+              "entity": "climate.truma_inet_heizung",
+              "temperature_entity": "sensor.truma_inet_raumtemperatur",
+              "name": "Raumheizung",
+              "grid_options": {
+                "columns": 12,
+                "rows": "auto"
+              }
+            }
+          ]
+        },
+        {
+          "type": "grid",
+          "cards": [
+            {
+              "type": "heading",
+              "heading": "Warmwasser",
+              "icon": "mdi:water-boiler"
+            },
+            {
+              "type": "custom:camper-inet-card",
+              "kind": "water",
+              "entity": "select.truma_inet_warmwasser",
+              "temperature_entity": "sensor.truma_inet_wassertemperatur",
+              "name": "Warmwasser einstellen",
+              "grid_options": {
+                "columns": 12,
+                "rows": "auto"
+              }
+            },
+            {
+              "type": "shortcut",
+              "label": "Koppeln & Handy-App",
+              "icon": "mdi:bluetooth-settings",
+              "color": "grey",
+              "tap_action": {
+                "action": "navigate",
+                "navigation_path": "/app/local_truma_inet_bridge"
+              },
+              "grid_options": {
+                "columns": 8,
+                "rows": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

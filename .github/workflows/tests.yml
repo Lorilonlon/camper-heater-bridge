@@ -1,0 +1,31 @@
+name: Tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.13', '3.14']
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -r truma_inet_bridge/requirements.txt
+      - run: python scripts/check_release.py
+      - run: python -m unittest discover -s tests -v
+        env:
+          PYTHONPATH: truma_inet_bridge
+  compatibility:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - run: sudo apt-get update && sudo apt-get install -y libbluetooth-dev
+      - run: gcc -Wall -Wextra -Werror -o /tmp/test-security truma_bluetooth_compat/tests/test_security_delay.c -ldl
+      - run: /tmp/test-security
