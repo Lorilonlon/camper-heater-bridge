@@ -12,7 +12,7 @@ Topics:
 
 `truma`, `truma-inet`, `inet-box`, `home-assistant`, `homeassistant`, `home-assistant-addon`, `mqtt`, `bluetooth`, `camper`, `motorhome`, `combi`
 
-README-Titel: **Camper Heater Bridge — Truma iNet-Box mit Home Assistant**.
+README-Titel: **Camper Heater Bridge – Truma iNet für Home Assistant**.
 
 In README und jedem Release bleibt die wesentliche KI-Mitwirkung sichtbar (AI_DISCLOSURE.md).
 

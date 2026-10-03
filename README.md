@@ -1,4 +1,6 @@
-# Camper Heater Bridge — Truma iNet-Box mit Home Assistant
+# Camper Heater Bridge – Truma iNet für Home Assistant
+
+Unabhängiges Community-Projekt, nicht von Truma unterstützt.
 
 Local Bluetooth/MQTT integration for the classic Truma iNet Box and Home Assistant. Independent community project, not affiliated with or endorsed by Truma or the Home Assistant project.
 
