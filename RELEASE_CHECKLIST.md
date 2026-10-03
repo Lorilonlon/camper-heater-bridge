@@ -1,6 +1,6 @@
 # Veröffentlichungsstand — 03.10.2026
 
-Vorbereitet als experimenteller Quellcode-Pre-Release, noch nicht online veröffentlicht. Bridge 0.1.8, optionale Kompatibilität 0.1.2. Kein Update der laufenden Betreiberanlage im Rahmen dieser Vorbereitung.
+Experimenteller Quellcode-Pre-Release unter https://github.com/Lorilonlon/camper-heater-bridge. Bridge 0.1.8, optionale Kompatibilität 0.1.2. Kein Update der laufenden Betreiberanlage im Rahmen dieser Vorbereitung.
 
 ## Erledigt
 
@@ -18,8 +18,8 @@ Vorbereitet als experimenteller Quellcode-Pre-Release, noch nicht online veröff
 
 - [ ] Herausgeber bestätigt seine Berechtigung zur Nutzung der untersuchten Original-App und bewertet etwaige weitere Vertragsbedingungen. Keine anwaltliche Einzelfallprüfung durchgeführt.
 - [ ] Sichere GitHub-Anmeldung, private Sicherheitsmeldungen und verfügbare Secret-/Push-Schutzfunktionen tatsächlich aktivieren.
-- [ ] Erstes privates Repository und GitHub-CI ausführen; lokale Tests ersetzen keine erfolgreichen GitHub-Läufe.
-- [ ] Vor endgültigem Upload `python scripts/check_release.py` ausführen; Änderungen und ggf. neu erzeugte Git-Historie erneut prüfen.
+- [x] Repository zunächst privat angelegt; GitHub-CI für Python 3.13/3.14 und Linux-C-Tests erfolgreich.
+- [x] Datei- und Historienprüfung vor dem Upload erfolgreich; erneute Prüfung bei späteren Änderungen erforderlich.
 
 ## Technisch weiter offen / im Pre-Release sichtbar
 

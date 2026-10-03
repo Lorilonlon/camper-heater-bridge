@@ -27,9 +27,11 @@ Vorbereiteter Stand: Bridge 0.1.8, optionale Bluetooth-Kompatibilität 0.1.2. Ex
 
 ## Installation aus GitHub
 
-Geplante Repository-Adresse: `https://github.com/Lorilonlon/camper-heater-bridge`. Der Link funktioniert erst nach Veröffentlichung; diese Vorbereitung erstellt kein Online-Repository.
+Repository: **[Lorilonlon/camper-heater-bridge](https://github.com/Lorilonlon/camper-heater-bridge)**.
 
-Nach Veröffentlichung in Home Assistant unter **Einstellungen → Apps → App-Store → ⋮ → Repositories** diese Adresse hinzufügen. Dann **Camper Heater Bridge** auswählen. Die beiden Apps werden aus Quellcode lokal gebaut; es gibt keine vorgefertigten Projekt-Images.
+[Repository in Home Assistant hinzufügen](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FLorilonlon%2Fcamper-heater-bridge)
+
+In Home Assistant unter **Einstellungen → Apps → App-Store → ⋮ → Repositories** diese Adresse hinzufügen. Dann **Camper Heater Bridge** auswählen. Die beiden Apps werden aus Quellcode lokal gebaut; es gibt keine vorgefertigten Projekt-Images.
 
 Eine bestehende lokale Installation wird durch Hinzufügen des Repositorys **nicht automatisch migriert**. Der Repository-Präfix unterscheidet sich von `local_`. Nicht beide Bridges gleichzeitig starten. Vor einem späteren Wechsel private Optionen und lokale Daten sichern, die bisherige Bridge stoppen und Konfiguration/Kopplung kontrolliert übernehmen. Ein automatischer Migrationspfad ist nicht getestet.
 
@@ -65,7 +67,7 @@ Die Linux-C-Tests laufen beim Build der Kompatibilitäts-App. Keine Original-APK
 
 ## Lizenz und Veröffentlichung
 
-Eigener Projektcode: MIT, siehe LICENSE. Abhängigkeiten behalten ihre eigenen Lizenzen; siehe THIRD_PARTY.md. Keine Herstellerrechte oder Markenrechte werden durch diese Lizenz eingeräumt. Die erste Veröffentlichung ist als experimenteller Quellcode-Pre-Release vorgesehen. Noch offene Prüfungen stehen in `RELEASE_CHECKLIST.md`; Herkunft und rechtliche Grenzen in `LEGAL.md`, vertrauliche Fehlermeldungen in `SECURITY.md`.
+Eigener Projektcode: MIT, siehe LICENSE. Abhängigkeiten behalten ihre eigenen Lizenzen; siehe THIRD_PARTY.md. Keine Herstellerrechte oder Markenrechte werden durch diese Lizenz eingeräumt. Die erste Veröffentlichung erfolgt als experimenteller Quellcode-Pre-Release. Noch offene Prüfungen stehen in `RELEASE_CHECKLIST.md`; Herkunft und rechtliche Grenzen in `LEGAL.md`, vertrauliche Fehlermeldungen in `SECURITY.md`.
 
 ## Verbindungsdiagnose
 

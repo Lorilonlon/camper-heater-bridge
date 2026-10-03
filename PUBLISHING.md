@@ -1,6 +1,6 @@
-# Konkrete GitHub-Vorbereitung
+# Veröffentlichung und künftige Pflege
 
-Noch nicht veröffentlicht. Geplanter Eigentümer: **Lorilonlon**. Geplanter Repository-Name: **camper-heater-bridge**.
+Repository: **[Lorilonlon/camper-heater-bridge](https://github.com/Lorilonlon/camper-heater-bridge)**. Der erste Quellstand wurde zunächst privat hochgeladen und in GitHub CI geprüft.
 
 ## Auffindbarkeit
 
@@ -18,7 +18,7 @@ In README und jedem Release bleibt die wesentliche KI-Mitwirkung sichtbar (AI_DI
 
 Die Begriffe benennen die tatsächliche Kompatibilität. Keine Logos, kein „official“, kein Herstellerkonto vortäuschen. Ranking oder Aufnahme in Suchmaschinen sind nicht garantiert.
 
-## Reihenfolge beim späteren Veröffentlichen
+## Ablauf für Veröffentlichungen
 
 1. Offene Rechte-/Testpunkte in RELEASE_CHECKLIST.md bewerten. Bei ungeklärter Nutzungsberechtigung oder Drittinhalten nicht öffentlich hochladen.
 2. Mit bestehender GitHub-Anmeldung oder offiziellem OAuth-/SSH-Verfahren anmelden; kein Konto-Passwort in Dateien oder Befehle schreiben. Für Commits bei Bedarf die im eigenen GitHub-Konto angezeigte noreply-Adresse verwenden, keine erfundene Adresse.
@@ -27,4 +27,4 @@ Die Begriffe benennen die tatsächliche Kompatibilität. Keine Logos, kein „of
 5. Endgültige Sichtbarkeit bewusst auf öffentlich ändern, die obige Beschreibung/Topics setzen und `v0.1.8` als **Pre-release** veröffentlichen. Kein Container-Push und keine selbst gebauten Binaries als Assets.
 6. Die tatsächliche Installation über die Repository-Adresse testen; erst bestätigte Prüfungen abhaken. Die bestehende Betreiberinstallation nicht nebenbei migrieren.
 
-Die README und repository.yaml enthalten bereits die geplante Adresse. Diese Links stellen keine Behauptung dar, dass das Repository existiert. GitHub-Passwörter, Tokens und private Hardwaredaten sind nicht Teil der Vorbereitung.
+Die Repository-Adresse ist in README und repository.yaml hinterlegt. Für zukünftige Änderungen das bestehende Repository und die reguläre GitHub-Anmeldung verwenden. Funktionsänderungen nachvollziehbar dokumentieren und vor einem Release prüfen. GitHub-Passwörter, Tokens und private Hardwaredaten gehören weder in Commits noch in Release-Assets.
