@@ -6,7 +6,7 @@ Repository: **[Lorilonlon/camper-heater-bridge](https://github.com/Lorilonlon/ca
 
 GitHub-Beschreibung:
 
-> Unofficial Truma iNet Box integration for Home Assistant: local Bluetooth/MQTT control of Combi heating and hot water, sensors, dashboard and diagnostics.
+> Unofficial Truma iNet Box integration for Home Assistant: local Bluetooth/MQTT control of Combi heating and hot water, sensors and dashboard.
 
 Topics:
 
