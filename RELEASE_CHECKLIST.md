@@ -1,6 +1,6 @@
 # Veröffentlichungsstand — 03.10.2026
 
-Experimenteller Quellcode-Pre-Release unter https://github.com/Lorilonlon/camper-heater-bridge. Bridge 0.1.8, optionale Kompatibilität 0.1.2. Kein Update der laufenden Betreiberanlage im Rahmen dieser Vorbereitung.
+Experimenteller Quellcode-Pre-Release unter https://github.com/Lorilonlon/truma-home-assistant-bridge. Bridge 0.1.8, optionale Kompatibilität 0.1.2. Kein Update der laufenden Betreiberanlage im Rahmen dieser Vorbereitung.
 
 ## Erledigt
 

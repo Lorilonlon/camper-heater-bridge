@@ -4,7 +4,7 @@ Dieses Projekt steuert reale Geräte. Bei unerwartetem Verhalten die Bridge stop
 
 ## Meldung einer Sicherheitslücke
 
-Keine Passwörter, Tokens, Bluetooth-Schlüssel, vollständigen Bugreports oder privaten Mitschnitte in öffentliche Issues oder Pull Requests laden. Für Sicherheitslücken den [vertraulichen GitHub-Meldeweg](https://github.com/Lorilonlon/camper-heater-bridge/security/advisories/new) verwenden (**Security → Report a vulnerability**). Private Sicherheitsmeldungen, Secret Scanning und Push Protection wurden am 03.10.2026 aktiviert und über die GitHub-API überprüft. Diese Schutzfunktionen erkennen nicht jedes Geheimnis; Dateien vor dem Hochladen weiterhin selbst prüfen.
+Keine Passwörter, Tokens, Bluetooth-Schlüssel, vollständigen Bugreports oder privaten Mitschnitte in öffentliche Issues oder Pull Requests laden. Für Sicherheitslücken den [vertraulichen GitHub-Meldeweg](https://github.com/Lorilonlon/truma-home-assistant-bridge/security/advisories/new) verwenden (**Security → Report a vulnerability**). Private Sicherheitsmeldungen, Secret Scanning und Push Protection wurden am 03.10.2026 aktiviert und über die GitHub-API überprüft. Diese Schutzfunktionen erkennen nicht jedes Geheimnis; Dateien vor dem Hochladen weiterhin selbst prüfen.
 
 Bereits veröffentlichte Zugangsdaten widerrufen bzw. ändern. Löschen aus einem aktuellen Commit beseitigt Kopien in Git-Historie, Forks und Caches nicht zuverlässig.
 

@@ -42,5 +42,5 @@
     "mqtt_insecure": "bool"
   },
   "stage": "experimental",
-  "url": "https://github.com/Lorilonlon/camper-heater-bridge"
+  "url": "https://github.com/Lorilonlon/truma-home-assistant-bridge"
 }
