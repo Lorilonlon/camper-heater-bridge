@@ -11,7 +11,7 @@ Stand: 03.10.2026. Lokale Prüfung des bereinigten Quellpakets, keine unabhängi
 | Historienprüfung des Prüfers | synthetischer Token auch nach Löschung aus aktuellem Stand noch in Test-Git-Historie erkannt |
 | Git-Historie des Veröffentlichungspakets | keine alte Git-Historie enthalten |
 | Python-Paketmetadaten | direkte und aufgelöste transitive Pakete in DEPENDENCIES.json dokumentiert |
-| GitHub-CI | Erster Lauf [37107264032](https://github.com/Lorilonlon/camper-heater-bridge/actions/runs/37107264032) erfolgreich: Python 3.13, Python 3.14 und Linux-C-Tests; Änderungen danach lösen erneut CI aus |
+| GitHub-CI | Erster Lauf [37107264032](https://github.com/Lorilonlon/truma-home-assistant-bridge/actions/runs/37107264032) erfolgreich: Python 3.13, Python 3.14 und Linux-C-Tests; Änderungen danach lösen erneut CI aus |
 | C-Tests / Linux | Acht C-Fälle im GitHub-Linux-Job erfolgreich. Kein neuer vollständiger Container-/Hardwaretest behauptet |
 | Reale Betreiberanlage | laut Betreiber am 03.10.2026 problemloser Betrieb; bei dieser Vorbereitung nicht verändert und keine neuen Steuerbefehle gesendet |
 | Frische GitHub-Installation / vollständiger Host-Neustart | offen |

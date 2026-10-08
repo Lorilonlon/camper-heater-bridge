@@ -1,6 +1,6 @@
 # Veröffentlichung und künftige Pflege
 
-Repository: **[Lorilonlon/camper-heater-bridge](https://github.com/Lorilonlon/camper-heater-bridge)**. Das Repository ist öffentlich. Der erste Quellstand wurde zunächst privat hochgeladen und in GitHub CI geprüft. Private Sicherheitsmeldungen, Secret Scanning und Push Protection sind aktiviert (03.10.2026).
+Repository: **[Lorilonlon/truma-home-assistant-bridge](https://github.com/Lorilonlon/truma-home-assistant-bridge)**. Das Repository ist öffentlich. Der erste Quellstand wurde zunächst privat hochgeladen und in GitHub CI geprüft. Private Sicherheitsmeldungen, Secret Scanning und Push Protection sind aktiviert (03.10.2026).
 
 ## Auffindbarkeit
 

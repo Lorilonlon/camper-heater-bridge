@@ -2,6 +2,15 @@
 
 Unabhängiges Community-Projekt, nicht von Truma unterstützt.
 
+> [!WARNING]
+> **Experimentelle Software – Nutzung auf eigene Gefahr und Verantwortung.**
+>
+> Dies ist ein privates Community-Projekt zur Steuerung einer echten Heizung und Warmwasseranlage, kein vom Hersteller freigegebenes Produkt. Fehler, Verbindungsabbrüche, falsche Anzeigen und unerwartete Schaltvorgänge sind möglich. Fehlbedienung oder Fehlfunktionen können Personen verletzen oder Sachschäden verursachen, etwa durch Brand, Überhitzung oder Frost.
+>
+> Prüfe die Eignung für deine Anlage selbst, teste Änderungen vor Ort unter Aufsicht und halte dich an die Herstelleranweisungen. Sicherheitseinrichtungen dürfen nicht umgangen werden. Verlasse dich für Frostschutz oder andere sicherheitsrelevante Aufgaben nicht allein auf diese Software oder das Dashboard. Bei unerwartetem Verhalten die Bridge stoppen und die Anlage nach Herstelleranleitung lokal bedienen.
+>
+> Die Software wird gemäß MIT-Lizenz ohne Zusicherung von Fehlerfreiheit, Zuverlässigkeit oder Eignung bereitgestellt. Zwingende gesetzliche Haftung bleibt unberührt; „auf eigene Gefahr“ bedeutet keinen vollständigen Haftungsausschluss. Siehe [Sicherheit und Haftung](LEGAL.md#sicherheit-und-haftung).
+
 Local Bluetooth/MQTT integration for the classic Truma iNet Box and Home Assistant. Independent community project, not affiliated with or endorsed by Truma or the Home Assistant project.
 
 Inoffizielle lokale Home-Assistant-App für eine klassische **Truma iNet-Box** und eine **Truma Combi 6**: Heizung, Warmwasser, Dashboard und Messwerte ohne Cloud-Steuerung.
@@ -29,13 +38,17 @@ Vorbereiteter Stand: Bridge 0.1.8, optionale Bluetooth-Kompatibilität 0.1.2. Ex
 
 ## Installation aus GitHub
 
-Repository: **[Lorilonlon/camper-heater-bridge](https://github.com/Lorilonlon/camper-heater-bridge)**.
+Repository: **[Lorilonlon/truma-home-assistant-bridge](https://github.com/Lorilonlon/truma-home-assistant-bridge)**.
 
-[Repository in Home Assistant hinzufügen](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FLorilonlon%2Fcamper-heater-bridge)
+[Repository in Home Assistant hinzufügen](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FLorilonlon%2Ftruma-home-assistant-bridge)
 
 In Home Assistant unter **Einstellungen → Apps → App-Store → ⋮ → Repositories** diese Adresse hinzufügen. Dann **Camper Heater Bridge** auswählen. Die beiden Apps werden aus Quellcode lokal gebaut; es gibt keine vorgefertigten Projekt-Images.
 
 Eine bestehende lokale Installation wird durch Hinzufügen des Repositorys **nicht automatisch migriert**. Der Repository-Präfix unterscheidet sich von `local_`. Nicht beide Bridges gleichzeitig starten. Vor einem späteren Wechsel private Optionen und lokale Daten sichern, die bisherige Bridge stoppen und Konfiguration/Kopplung kontrolliert übernehmen. Ein automatischer Migrationspfad ist nicht getestet.
+
+### Bereits über GitHub installiert?
+
+Das Repository wurde am 08.10.2026 von `Lorilonlon/camper-heater-bridge` in `Lorilonlon/truma-home-assistant-bridge` umbenannt. GitHub leitet die bisherige Adresse weiter. Bestehende Installationen sollten den bisher in Home Assistant eingetragenen Repository-Link zunächst beibehalten: Home Assistant leitet den App-Präfix aus der Repository-Adresse ab; erneutes Hinzufügen unter der neuen Adresse kann deshalb eine separate Installation erzeugen. Nicht beide Bridges gleichzeitig starten. Eine Migration bestehender Installationen auf die neue Adresse wurde nicht getestet. Die neue Adresse oben ist für Neuinstallationen vorgesehen. Siehe [GitHub-Weiterleitungen](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository) und [Home-Assistant-App-Kennungen](https://developers.home-assistant.io/docs/apps/configuration/).
 
 ## Installation und Einrichtung
 

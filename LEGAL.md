@@ -33,6 +33,8 @@ Der vorbereitete Release enthält ausschließlich Quellcode. Er veröffentlicht 
 
 ## Sicherheit und Haftung
 
+Der Hinweis „Nutzung auf eigene Gefahr und Verantwortung“ macht den experimentellen Stand und die Verantwortung für Installation und Bedienung deutlich. Er ist kein pauschaler Ausschluss jeder Haftung. Insbesondere bleiben zwingende Haftung für Vorsatz, grobe Fahrlässigkeit, schuldhaft verursachte Schäden an Leben, Körper oder Gesundheit sowie sonstige unabdingbare gesetzliche Ansprüche unberührt. Das deutsche Recht begrenzt Haftungsausschlüsse unter anderem in [§ 276 Abs. 3 BGB](https://www.gesetze-im-internet.de/bgb/__276.html) und, soweit AGB-Recht anwendbar ist, [§ 309 Nr. 7 BGB](https://www.gesetze-im-internet.de/bgb/__309.html). Die konkrete rechtliche Wirkung hängt vom Einzelfall ab; dieser Hinweis ist keine anwaltlich geprüfte Vertragsklausel.
+
 Die MIT-Lizenz enthält die übliche Gewährleistungs- und Haftungsklausel. Ihre Reichweite hängt vom anwendbaren Recht ab; zwingende gesetzliche Rechte werden dadurch nicht automatisch ausgeschlossen. Es gibt keine Aussage zu Produktsicherheits-, CE- oder sonstiger regulatorischer Konformität und keinen Anspruch auf Herstellergewährleistung für Folgen einer Fremdsteuerung. Bei kommerziellem Angebot oder Vertrieb von vorkonfigurierter Hardware ist eine neue rechtliche und technische Bewertung nötig.
 
 Rückgelesene Sollwerte belegen nicht den sicheren Betrieb des Brenners. Herstelleranweisungen und Sicherheitseinrichtungen bleiben maßgeblich. Nutzung nur mit Anlagen und Konten, zu deren Steuerung die nutzende Person berechtigt ist.
